@@ -129,6 +129,7 @@ Error handling is kept light on purpose. The samples check the failures you're l
 | [DemoGltfViewer.cs](Demo/DemoGltfViewer.cs) | Loading a glTF scene with its node transforms, optimising it with meshoptimizer and drawing it lit with OpenGL. Pass your own `.gltf` or `.glb`, or it builds a torus knot |
 | [DemoTexturedQuad.cs](Demo/DemoTexturedQuad.cs) | Writing a mipmapped texture as KTX2, loading it back and drawing it on a floor with OpenGL, with each mip level tinted |
 | [DemoImGui.cs](Demo/DemoImGui.cs) | Dear ImGui with FreeType fonts and an ImPlot plot, on GLFW and OpenGL |
+| [DemoImGuiVulkan.cs](Demo/DemoImGuiVulkan.cs) | Dear ImGui on GLFW and Vulkan over a spinning triangle, with the least Vulkan needed and a `Scene` class to replace with your own rendering and UI |
 | [DemoSdl.cs](Demo/DemoSdl.cs) | An SDL window using Sdl.Image (PNG save and load), Sdl.Mixer (a beep on Space) and Sdl.Ttf (text, if you pass a font) |
 | [DemoRenderDoc.cs](Demo/DemoRenderDoc.cs) | An OpenGL triangle that captures a frame with RenderDoc when you press F12 (Windows and Linux) |
 | [DemoBox2D.cs](Demo/DemoBox2D.cs) | Boxes falling onto the ground with Box2D, drawn with OpenGL |
